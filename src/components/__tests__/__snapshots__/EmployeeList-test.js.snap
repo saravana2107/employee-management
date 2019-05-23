@@ -1,0 +1,198 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Employees should display employees list 1`] = `
+<div
+  className="table-responsive"
+>
+  <table
+    className="table table-striped"
+  >
+    <thead
+      className="thead-light"
+    >
+      <tr>
+        <th>
+          ID
+        </th>
+        <th>
+          Name
+        </th>
+        <th>
+          Email
+        </th>
+        <th>
+          Phone
+        </th>
+        <th>
+          Address
+        </th>
+        <th>
+          City
+        </th>
+        <th>
+          State
+        </th>
+        <th>
+          ZipCode
+        </th>
+        <th>
+          Gender
+        </th>
+        <th>
+          Action
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th
+          className="align-middle"
+          scope="row"
+        >
+          ALTI123456
+        </th>
+        <td
+          className="align-middle"
+        >
+          Test User #1
+        </td>
+        <td
+          className="align-middle"
+        >
+          test+1@altimetric.com
+        </td>
+        <td
+          className="align-middle"
+        >
+          9876543210
+        </td>
+        <td
+          className="align-middle"
+        >
+          Kudlu Gate
+        </td>
+        <td
+          className="align-middle"
+        >
+          Bangalore
+        </td>
+        <td
+          className="align-middle"
+        >
+          Karnataka
+        </td>
+        <td
+          className="align-middle"
+        >
+          560068
+        </td>
+        <td
+          className="align-middle"
+        >
+          Male
+        </td>
+        <td
+          className="align-middle"
+        >
+          <div>
+            <button
+              aria-label={null}
+              className="mr-2 btn btn-primary btn-sm"
+              onClick={[Function]}
+              type="button"
+            >
+              <i
+                className="fas fa-edit"
+              />
+            </button>
+            <button
+              aria-label={null}
+              className="btn btn-danger btn-sm"
+              onClick={[Function]}
+              type="button"
+            >
+              <i
+                className="fas fa-trash"
+              />
+            </button>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <th
+          className="align-middle"
+          scope="row"
+        >
+          ALTI123457
+        </th>
+        <td
+          className="align-middle"
+        >
+          Test User #2
+        </td>
+        <td
+          className="align-middle"
+        >
+          test+2@altimetric.com
+        </td>
+        <td
+          className="align-middle"
+        >
+          9876543211
+        </td>
+        <td
+          className="align-middle"
+        >
+          Kudlu Gate
+        </td>
+        <td
+          className="align-middle"
+        >
+          Bangalore
+        </td>
+        <td
+          className="align-middle"
+        >
+          Karnataka
+        </td>
+        <td
+          className="align-middle"
+        >
+          560068
+        </td>
+        <td
+          className="align-middle"
+        >
+          Male
+        </td>
+        <td
+          className="align-middle"
+        >
+          <div>
+            <button
+              aria-label={null}
+              className="mr-2 btn btn-primary btn-sm"
+              onClick={[Function]}
+              type="button"
+            >
+              <i
+                className="fas fa-edit"
+              />
+            </button>
+            <button
+              aria-label={null}
+              className="btn btn-danger btn-sm"
+              onClick={[Function]}
+              type="button"
+            >
+              <i
+                className="fas fa-trash"
+              />
+            </button>
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;

@@ -94,6 +94,7 @@ const validate = (values, state) => {
  * @param label
  * @param options
  * @param type
+ * @param disabled
  * @param touched
  * @param error
  */
@@ -153,7 +154,7 @@ const EmployeeForm = props => {
       <ModalHeader close={closeBtn}>
         {isEdit ? "Edit" : "Add"} Employee
       </ModalHeader>
-      <form onSubmit={handleSubmit(props.add)}>
+      <form onSubmit={handleSubmit(values => props.add(values, isEdit))}>
         <ModalBody>
           <Row form>
             <Col md={4}>

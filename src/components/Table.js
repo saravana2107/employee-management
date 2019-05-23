@@ -5,7 +5,7 @@ export const TableColumn = () => {};
 
 export default class TableComponent extends React.Component {
   render() {
-    const { children: columns, data } = this.props;
+    const { children: columns, data, notFoundText } = this.props;
 
     return (
       <Table striped responsive>
@@ -20,7 +20,7 @@ export default class TableComponent extends React.Component {
           {data.length === 0 && (
             <tr>
               <td colSpan={columns.length} className="text-center">
-                No Employees Found
+                {notFoundText || "No Results Found"}
               </td>
             </tr>
           )}

@@ -9,10 +9,11 @@ import { toast } from "react-toastify";
  * Employee Create
  *
  * @param payload
+ * @param isEdit
  * @returns {{type, payload: *}}
  */
-export function add(payload) {
-  toast.success("Employee Created Successfully", {
+export function add(payload, isEdit = false) {
+  toast.success(`Employee ${isEdit ? "Updated" : "Created"} Successfully`, {
     hideProgressBar: false
   });
   return { type: CREATE_EMPLOYEE, payload };

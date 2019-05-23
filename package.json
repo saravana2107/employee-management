@@ -22,10 +22,9 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "test": "npm run lint && jest",
+    "lint": "echo ESLint: && ./node_modules/.bin/eslint -v && ./node_modules/.bin/eslint . --ignore-path .gitignore",
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -44,11 +43,14 @@
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",
+    "babel-jest": "^24.8.0",
     "eslint": "^5.16.0",
     "eslint-config-prettier": "^4.3.0",
     "eslint-plugin-flowtype": "^3.9.0",
     "eslint-plugin-prettier": "^3.1.0",
     "eslint-plugin-react": "^7.13.0",
-    "prettier": "^1.17.1"
+    "jest": "24.7.1",
+    "prettier": "^1.17.1",
+    "react-test-renderer": "^16.8.6"
   }
 }

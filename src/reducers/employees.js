@@ -10,7 +10,7 @@ export function employees(
   state = {
     modal: false,
     data: {},
-		employeeId: null
+    employeeId: null
   },
   action
 ) {

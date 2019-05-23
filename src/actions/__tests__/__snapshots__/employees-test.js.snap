@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`employees actions should add employee 1`] = `
+Object {
+  "payload": Object {
+    "address": "Kudlu Gate",
+    "city": "Bangalore",
+    "email": "test+1@altimetric.com",
+    "gender": "Male",
+    "id": "ALTI123456",
+    "name": "Test User #1",
+    "phone": "9876543210",
+    "state": "Karnataka",
+    "zipcode": "560068",
+  },
+  "type": "CREATE_EMPLOYEE",
+}
+`;
+
+exports[`employees actions should delete employee 1`] = `
+Object {
+  "payload": "ALTI123456",
+  "type": "DELETE_EMPLOYEE",
+}
+`;
+
+exports[`employees actions should toggle modal 1`] = `
+Object {
+  "payload": null,
+  "type": "TOGGLE_EMPLOYEE_MODAL",
+}
+`;
+
+exports[`employees actions should toggle modal with employee id 1`] = `
+Object {
+  "payload": "ALTI123456",
+  "type": "TOGGLE_EMPLOYEE_MODAL",
+}
+`;

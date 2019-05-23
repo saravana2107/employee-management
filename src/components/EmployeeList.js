@@ -14,7 +14,7 @@ class EmployeeList extends React.Component {
     Object.keys(employees).forEach(employee => data.push(employees[employee]));
 
     return (
-      <Table data={data}>
+      <Table data={data} notFoundText="No Employees Found">
         <TableColumn field="id">ID</TableColumn>
         <TableColumn field="name">Name</TableColumn>
         <TableColumn field="email">Email</TableColumn>
